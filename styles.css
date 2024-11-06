@@ -1,21 +1,6 @@
-.button {
-  transition-duration: 0.4s;
-}
-
-.button:hover {
-  background-color: #04AA6D;
-  color: white;
-}
-
-body{
-
-  
-}
-
 .x{
-
-         background-color: cyan;
-         color: red;
-         padding: 10px;
+       background-color: #04AA6D;
+       color: white;
+       padding: 10px;
   
 }
