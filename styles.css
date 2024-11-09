@@ -1,12 +1,20 @@
-td {
-    background-color: #3498db; 
-    color: white;             
-    border: none;             
-    padding: 10px 20px;       
-    cursor: pointer;         
-    text-align: center;        
-    border-radius: 5px;       
-    font-weight: bold;        
-    transition: background-color 0.3s ease; 
-}
+th img {
+        width: 100%; /* Make sure image fills the header */
+        height: auto;
+      }
 
+      /* Button-like style for table cells */
+      td {
+        background-color: #3498db;  /* Blue background */
+        color: white;               /* White text */
+        padding: 10px 20px;         /* Padding to make it look like a button */
+        cursor: pointer;           /* Pointer cursor */
+        text-align: center;         /* Text in the center */
+        border-radius: 5px;         /* Rounded corners */
+        font-weight: bold;          /* Bold text */
+        transition: background-color 0.3s ease; /* Smooth color transition */
+      }
+
+      td:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+      }
