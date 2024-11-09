@@ -1,6 +1,12 @@
-x{
-       background-color: #04AA6D;
-       color: white;
-       padding: 10px;
-  
+.x {
+    background-color: #3498db; 
+    color: white;             
+    border: none;             
+    padding: 10px 20px;       
+    cursor: pointer;         
+    text-align: center;        
+    border-radius: 5px;       
+    font-weight: bold;        
+    transition: background-color 0.3s ease; 
 }
+
