@@ -4,7 +4,7 @@ th img {
       }
 
       /* Button-like style for table cells */
-      td {
+      .x {
         background-color: #3498db;  /* Blue background */
         color: white;               /* White text */
         padding: 10px 20px;         /* Padding to make it look like a button */
