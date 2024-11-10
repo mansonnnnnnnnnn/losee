@@ -2,30 +2,73 @@
 <html>
   <head>
     <style>
-      table, th, td {
-    width: 150px;
-    height: 60px;
-}
+      /* Make the table fill the screen width */
+      table {
+        width: 100%; /* Table width 100% of the screen */
+        height: 100vh; /* Full viewport height */
+        border-collapse: collapse; /* Optional: Removes space between borders */
+      }
+
+      th, td {
+        border: 1px solid black;
+        height: 60px; /* Set a fixed height for table rows */
+        text-align: center; /* Center text inside cells */
+      }
+
+      /* Style for the header image */
+      th img {
+        width: 100%; /* Ensure the image fills the header cell */
+        height: auto;
+      }
+
+      /* Button-like style for table cells */
+      .x {
+        background-color: #3498db;  /* Blue background */
+        color: white;               /* White text */
+        padding: 10px 20px;         /* Padding to make it look like a button */
+        cursor: pointer;           /* Pointer cursor */
+        text-align: center;         /* Text in the center */
+        border-radius: 5px;         /* Rounded corners */
+        font-weight: bold;          /* Bold text */
+        transition: background-color 0.3s ease; /* Smooth color transition */
+      }
+
+      td:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+      }
+
+      /* Style for the heading */
+      h1 {
+        margin: 0; /* Remove default margin */
+        padding: 20px;
+        font-size: 2em;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
     <table>
+      <!-- Header with image -->
       <tr>
         <th colspan="3">
           <img src="The first website that I made.png" width="500" height="100">
         </th>
       </tr>
+
+      <!-- Buttons (links to other pages) -->
       <tr>
         <td class="x"><a href="index.html">Button 1</a></td>
         <td class="x"><a href="page2.html">Button 2</a></td>
         <td class="x"><a href="page3.html">Button 3</a></td>
       </tr>
+
+      <!-- Content area -->
       <tr>
-        <td colspan="3"><h1>home page</h1></td>
+        <td colspan="3"><h1>Page 2</h1></td>
       </tr>
       <tr>
         <td colspan="3"></td>
       </tr>
     </table>
-    </body>
+  </body>
 </html>
